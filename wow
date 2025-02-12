@@ -100,3 +100,30 @@ public class Java_Trash
 		while(a != 5);
 	}
 }
+
+
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+
+    cars.add(0, "Mazda"); // Insert element at the beginning of the list (0)
+
+    System.out.println(cars);
+ArrayList<Type> arrayList= new ArrayList<>();
+// create Integer type arraylist
+ArrayList<Integer> arrayList = new ArrayList<>();
+
+// create String type arraylist
+ArrayList<String> arrayList = new ArrayList<>();
+
+    // create ArrayList
+    ArrayList<String> languages = new ArrayList<>();
+
+    // Add elements to ArrayList
+    languages.add("Java");
+    languages.add("Python");
+    languages.add("Swift");
+    System.out.println("ArrayList: " + languages);
+output
+ArrayList: [Java, Python, Swift]
